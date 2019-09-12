@@ -1,0 +1,42 @@
+/* SECTION-timers */
+.section-timers {
+}
+/* .timer-title {
+  display: flex;
+  justify-content: center;
+
+} */
+.wrap-timer {
+}
+.ul-timers {
+  padding: 0;
+}
+.li-timer {
+  list-style: none;
+  text-align: center;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.in-timer {
+}
+.value,
+.label {
+  display: block;
+  text-align: center;
+}
+.value {
+  font-size: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  background-color: #8bbea5;
+  color: white;
+  border: 5px solid cadetblue;
+  border-radius: 10px;
+}
+.label {
+  font-size: 10px;
+}
