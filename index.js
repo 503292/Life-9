@@ -38,7 +38,7 @@ export class CountdownTimer {
         const secs = pad(Math.floor((differenceTime % (1000 * 60)) / 1000));
 
         // запис чисел часу в HTML
-        this.refs.year.textContent = (yearsEnd - 1) + " р.";
+        this.refs.year.textContent = (yearsEnd - 1) + " р).";
         // console.log();
         this.refs.day.textContent = days;
         this.refs.hour.textContent = hours;
