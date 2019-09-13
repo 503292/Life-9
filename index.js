@@ -36,9 +36,9 @@ export class CountdownTimer {
           Math.floor((differenceTime % (1000 * 60 * 60)) / (1000 * 60))
         );
         const secs = pad(Math.floor((differenceTime % (1000 * 60)) / 1000));
-
+        console.log(yearsEnd);
         // запис чисел часу в HTML
-        this.refs.year.textContent = (yearsEnd - 1) + " р).";
+        this.refs.year.textContent = yearsEnd - 1 + " р).";
         // console.log();
         this.refs.day.textContent = days;
         this.refs.hour.textContent = hours;
@@ -59,8 +59,8 @@ export function pad(value) {
 
 const timeBirthday_100 = new CountdownTimer({
   selector: "#timer-1",
-  targetDate: new Date("Jun 23, 2102"),
-  birthDay: new Date("Jun 23, 2002")
+  targetDate: new Date("Jan 01, 2025"),
+  birthDay: new Date("Jan 23, 2002")
 });
 // console.log(timeBirthday_100);
 
